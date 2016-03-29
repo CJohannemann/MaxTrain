@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class CalculateInterestMain {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the interest calculator");
+		System.out.println();
+		
+		Scanner userInput = new Scanner(System.in);
+		
+		
+		double num1 = 0;
+		double interest1 = 0;
+		double choice = 0;
+		
+
+		
+		System.out.println("Enter loan amount:     " );
+		num1 = userInput.nextInt();
+		userInput.nextLine();
+		System.out.println("Enter interest rate:   " );
+		interest1 = userInput.nextInt();
+		userInput.nextLine();
+		
+
+	
+		
+		double totalInterest = (num1 * interest1) + num1;
+		totalInterest *= .01;
+		System.out.println(totalInterest);
+		
+	}
+	
+  /*
+   * 		int choice = 0;
+		
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		
+		choice = userInput.nextInt();
+		userInput.nextLine();
+		
+		//Constructor
+		RomanNumeral romanObject = new RomanNumeral();
+		 
+		//String to hold, to return back to program
+		String convertedNumber = "";
+		
+		convertedNumber=romanObject.convertNumberToLetter(choice);
+		
+		System.out.println(convertedNumber);
+		
+   */
+
+
+}

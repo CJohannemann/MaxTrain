@@ -1,0 +1,31 @@
+package murach.db;
+
+import murach.business.Product;
+
+public class ProductDB {
+    private static String[][] productsArray = {
+        {"java", "Murach's Java Programming", "57.50"},
+        {"jsp", "Murach's Java Servlets and JSP", "57.50"},
+        {"mysql", "Murach's MySQL", "54.50"}
+    };
+    
+    
+     // In the ProductDB class, add code that implements the getProductByIndex
+    //  method. This should return a Product object for the product data at the
+   //	specified index.
+    
+    public static Product getProductByIndex(int i) {
+		Product product = new Product(productsArray[i][0], productsArray[i][1], Double.parseDouble(productsArray[i][2]));    	
+        return product;
+    }
+    
+	public static Product getProductByCode(String code) {
+        // TODO: Add code here to return Product object
+        return null;
+    }
+    
+    public static Product[] getAllProducts() {
+        // TODO: Add code here to return array of Product objects
+        return null;
+    }    
+}

@@ -1,0 +1,24 @@
+
+public class CalculateInterestClass {
+	
+	
+	private double num1 = 0;
+	private double intrest1 = 0;
+	
+	
+
+	
+	public double getNum1() {
+		return num1;
+	}
+	public void setNum1(double num1) {
+		this.num1 = num1;
+	}
+	public double getIntrest1() {
+		return intrest1;
+	}
+	public void setIntrest1(double intrest1) {
+		this.intrest1 = intrest1;
+	}
+
+}

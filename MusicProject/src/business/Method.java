@@ -1,0 +1,84 @@
+package business;
+
+public class Method {
+	
+	public static int noteToNumber(String note) {
+		switch (note) {
+			case "C":
+			case "c":
+			case "B#":
+			case "b#":
+				return 1;
+			case "C#":
+			case "c#":
+				return 2;
+			case "D":
+			case "d":
+				return 3;
+			case "D#":
+			case "d#":
+				return 4;
+			case "E":
+			case "e":
+				return 5;
+			case "E#":
+			case "e#":
+			case "F":
+			case "f":
+				return 6;
+			case "F#":
+			case "f#":
+				return 7;
+			case "G":
+			case "g":
+				return 8;
+			case "G#":
+			case "g#":
+				return 9;
+			case "A":
+			case "a":
+				return 10;
+			case "A#":
+			case "a#":
+				return 11;
+			case "B":
+			case "b":
+				return 12;
+			default:
+				return 0;
+		}
+	}
+	
+	public static String numberToNote(int noteNumber) {
+		int remainder = noteNumber % 12;
+		switch (remainder) {
+		case 1:
+			return "C";
+		case 2:
+			return "C#";
+		case 3:
+			return "D";
+		case 4:
+			return "D#";
+		case 5:
+			return "E";
+		case 6:
+			return "F";
+		case 7:
+			return "F#";
+		case 8:
+			return "G";
+		case 9:
+			return "G#";
+		case 10:
+			return "A";
+		case 11:
+			return "A#";
+		case 0:
+			return "B";
+		default:
+			return "";
+		}
+	}
+	
+}

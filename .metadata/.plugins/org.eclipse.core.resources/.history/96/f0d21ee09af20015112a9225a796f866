@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class AccountApp {
+
+	public static void main(String[] args) {
+		
+		CheckingAccount theCheckingAccount = new CheckingAccount();
+		String choice = "y";
+		String withdrawOrDeposit = "";
+		Double transactionAmount = 0.0;
+		Scanner sc = new Scanner(System.in);
+		
+		theCheckingAccount.setBalance(1000.00);
+		
+		System.out.println("Welcome to the Account Calculator");
+			
+			System.out.println("Starting Balance");
+			System.out.print("Checking: ");
+			System.out.println(theCheckingAccount.getBalanceFormatted());
+			
+			System.out.println("Enter the transactions for the month: ");
+			
+			System.out.println("Withdrawls or deopsit? (w/d): ");
+			withdrawOrDeposit = sc.nextLine();
+			
+			System.out.println("Amount: ");
+			transactionAmount = sc.nextDouble();
+			sc.nextLine();
+			
+			System.out.println("Continue? (y/n: ");
+			choice = sc.nextLine();			
+	}
+
+}

@@ -1,0 +1,30 @@
+package murach.test;
+
+import java.util.Arrays;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+
+    	
+    	
+    	double [] randomNumbers = new double [99];
+    	
+    	
+    	for (int i = 0; i < randomNumbers.length; i++) {
+    		randomNumbers[i] = Math.random() * 100;
+    	}
+    	
+    	
+    	double sum = 0;
+    	for (double number : randomNumbers) {
+    		sum += number;
+    	}
+    	double average = sum / randomNumbers.length;
+    	System.out.println("Average: " +average);
+    	
+    	
+    	
+    }
+}

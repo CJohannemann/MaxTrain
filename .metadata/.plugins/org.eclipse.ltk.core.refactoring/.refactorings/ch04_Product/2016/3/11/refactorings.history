@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ProductDB.java&apos; to &apos;ch05_LineItem/src&apos;&#x0D;&#x0A;- Original project: &apos;ch04_Product&apos;&#x0D;&#x0A;- Destination element: &apos;ch05_LineItem/src&apos;&#x0D;&#x0A;- Original element: &apos;murach.product.ProductDB.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=ch05_LineItem/src" element1="/src&lt;murach.product{ProductDB.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1457626345083" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package murach.business;
+
+/**
+ * @author cjohannemann
+ *
+ */
+public class UsedBook extends Book{
+
+}

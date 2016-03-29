@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;currencyFormatter&apos; in &apos;Alligator.getBalanceFormatted()&apos; to &apos;numberCounted&apos;&#x0D;&#x0A;- Original project: &apos;SheepCounter&apos;&#x0D;&#x0A;- Original element: &apos;Alligator.getBalanceFormatted().currencyFormatter&apos;&#x0D;&#x0A;- Renamed element: &apos;currencyFormatter&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;currencyFormatter&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Alligator.java[Alligator~getBalanceFormatted@currencyFormatter!153!212!166!182!QNumberFormat;!0!false" name="numberCounted" references="true" stamp="1458920950906" version="1.0"/>
+</session>

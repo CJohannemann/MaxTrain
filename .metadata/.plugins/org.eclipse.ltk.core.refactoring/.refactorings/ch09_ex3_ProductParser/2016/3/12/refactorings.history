@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;intials&apos; in &apos;murach.ui.CapAllWords.main(...)&apos; to &apos;letters&apos;&#x0D;&#x0A;- Original project: &apos;ch09_ex3_ProductParser&apos;&#x0D;&#x0A;- Original element: &apos;murach.ui.CapAllWords.main(String[]).intials&apos;&#x0D;&#x0A;- Renamed element: &apos;intials&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;intials&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;murach.ui{CapAllWords.java[CapAllWords~main~\[QString;@intials!238!252!242!248!I!0!false" name="letters" references="true" stamp="1458328823406" version="1.0"/>
+</session>

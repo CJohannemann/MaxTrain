@@ -1,0 +1,17 @@
+
+public class AccountApp {
+
+	public static void main(String[] args) {
+			System.out.println("Welcome to the Account Calculator");
+			
+			System.out.println("Starting Balance");
+			System.out.println("Checking: ");
+			System.out.println("Enter the transactions for the month: ");
+			System.out.println("Withdrawls or deopsit? (w/d): ");
+			System.out.println("Amount: ");
+			System.out.println("Continue? (y/n: ");
+			
+			
+	}
+
+}

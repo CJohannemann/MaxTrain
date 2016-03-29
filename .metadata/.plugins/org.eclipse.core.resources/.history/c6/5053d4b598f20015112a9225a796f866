@@ -1,0 +1,21 @@
+
+public class AccountApp {
+
+	public static void main(String[] args) {
+		
+		CheckingAccount theCheckingAccount = new CheckingAccount();
+		theCheckingAccount.setBalance(1000.00);
+			System.out.println("Welcome to the Account Calculator");
+			
+			System.out.println("Starting Balance");
+			System.out.print("Checking: ");
+			System.out.println(theCheckingAccount.getBalanceFormatted());
+			System.out.println("Enter the transactions for the month: ");
+			System.out.println("Withdrawls or deopsit? (w/d): ");
+			System.out.println("Amount: ");
+			System.out.println("Continue? (y/n: ");
+			
+			
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;index1&apos; in &apos;murach.name.NameParserApp.main(...)&apos; to &apos;name1&apos;&#x0D;&#x0A;- Original project: &apos;ch09_ex1_NameParser&apos;&#x0D;&#x0A;- Original element: &apos;murach.name.NameParserApp.main(String[]).index1&apos;&#x0D;&#x0A;- Renamed element: &apos;index1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;index1&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;murach.name{NameParserApp.java[NameParserApp~main~\[QString;@index1!330!360!334!339!I!0!false" name="name1" references="true" stamp="1458314818541" version="1.0"/>
+</session>

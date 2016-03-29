@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;currency&apos; in &apos;Account.getBalanceFormatted()&apos; to &apos;currencyFormatter&apos;&#x0D;&#x0A;- Original project: &apos;Banking12_1&apos;&#x0D;&#x0A;- Original element: &apos;Account.getBalanceFormatted().currency&apos;&#x0D;&#x0A;- Renamed element: &apos;currency&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;currency&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Account.java[Account~getBalanceFormatted@currency!236!293!249!256!QNumberFormat;!0!false" name="currencyFormatter" references="true" stamp="1458915481474" version="1.0"/>
+</session>

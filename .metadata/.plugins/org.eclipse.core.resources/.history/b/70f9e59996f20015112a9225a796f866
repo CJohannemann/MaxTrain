@@ -1,0 +1,40 @@
+import java.text.NumberFormat;
+
+/* 
+ * This is the actual account that can be withdrawn, deposited and balanced
+ */
+public class Account implements Withdrawable, Balanceable, Depositable{
+	double balance = 0.0;
+	
+public String getBalanceFormatted(){
+
+	NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance();
+			String balanceFormatted = currencyFormatter.format(balance);
+	return balanceFormatted;
+}
+
+
+@Override
+public void deposit(double amount) {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public double getBalance() {
+	// TODO Auto-generated method stub
+	return 0;
+}
+
+@Override
+public void setBalance(double amount) {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public void withdraw(double amount) {
+	// TODO Auto-generated method stub
+	
+}
+}
